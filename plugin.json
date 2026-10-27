@@ -1,0 +1,31 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "email": "neranjani17092007@gmail.com",
+    "name": "Neranjani Akkina"
+  },
+  "description": "Academic calendar planning and detailed study guides grounded in uploaded notes and research.",
+  "extensions": {
+    "com.openai": {
+      "apps": "./.app.json",
+      "interface": {
+        "capabilities": [],
+        "category": "Education & Research",
+        "defaultPrompt": [
+          "Summarize my academic day from Google Calendar.",
+          "Compile my uploaded notes into a detailed Markdown study guide.",
+          "Help me draft a study reminder."
+        ],
+        "developerName": "Neranjani Akkina",
+        "displayName": "Student Executive Assistant",
+        "longDescription": "Draft academic events and reminders, summarize Google Calendar, and synthesize uploaded lecture notes, PDFs and research into detailed Markdown study guides. Uses existing Google Calendar and Google Drive connections. Concise conversation and voice summaries with detailed written reports. Availability depends on host features and connected tools.",
+        "shortDescription": "Plan your day. Study smarter.",
+        "brandColor": "#4F46E5",
+        "brandColorDark": "#A5B4FC"
+      }
+    }
+  },
+  "name": "student-executive-assistant",
+  "version": "0.2.0"
+}
+
